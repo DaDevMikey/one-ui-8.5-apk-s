@@ -2,7 +2,7 @@
 
 This repository stores APKs from One UI 8.5 apps (not all of them). These APKs are used by the One UI 8.5 installer module and can also be installed directly from this repository.
 
-#BEFORE YOU START
+# BEFORE YOU START
 
 APK's like the samsung settings app and the one ui home app are NOT included in this repo, because those apps need specific one ui 8.5 libraries and without them the apps WILL crash
 
