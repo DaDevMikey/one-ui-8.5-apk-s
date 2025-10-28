@@ -44,8 +44,8 @@ Both modules are required for the apps to function correctly.
 
 ### Manual Installation
 
-While you can download and install the APKs directly from this repository, remember that you'll still need the compatibility module (available in releases) for the apps to work properly.
+While you can download and install the APKs directly from this repository (APK's are always released as *PREreleases*, module updates under normal releases), remember that you'll still need the compatibility module (available in module releases) for the apps to work properly.
 
 ## Compatibility
 
-These APKs are designed for One UI 8.5 and may not work correctly without the required modules mentioned above.
+These APKs are designed for One UI 8.5 and may not work correctly without the required modules mentioned above, some of the apps also crash on one ui 7, using the module while on android 15/one ui 7 devices is not recommended (currently known crashes include but are not limited to the phone app and the contacts app).
