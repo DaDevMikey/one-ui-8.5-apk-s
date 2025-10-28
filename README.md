@@ -6,6 +6,20 @@ This repository stores APKs from One UI 8.5 apps (not all of them). These APKs a
 
 APK's like the samsung settings app and the one ui home app are NOT included in this repo, because those apps need specific one ui 8.5 libraries and without them the apps WILL crash
 
+#include <std_disclaimer.h>
+
+/*
+* Your warranty is now void.
+*
+* I am not responsible for bricked devices, dead SD cards,
+* thermonuclear war, or you getting fired because the alarm app failed. Please
+* do some research if you have any concerns about doing this to your device
+* YOU are choosing to make these modifications, and if
+* you point the finger at me for messing up your device, I will laugh at you.
+*
+* I am also not responsible for you getting in trouble for using any of the features in this ROM, including but not limited to Call Recording, 5GHz Hotspot, Bixby etc.
+*/
+
 ## Purpose
 
 The primary purpose of this repository is to:
