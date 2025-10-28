@@ -50,6 +50,7 @@ SamsungContactsProvider.apk
 SamsungDialer.apk
 SamsungInCallUI.apk
 TelephonyUI.apk
+SamsungCamera.apk
 "
 
 # The ID of the module we're checking for
