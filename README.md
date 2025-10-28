@@ -17,7 +17,7 @@ APK's like the samsung settings app and the one ui home app are NOT included in 
 * YOU are choosing to make these modifications, and if
 * you point the finger at me for messing up your device, I will laugh at you.
 *
-* I am also not responsible for you getting in trouble for using any of the features in this ROM, including but not limited to Call Recording, 5GHz Hotspot, Bixby etc.
+* I am also not responsible for you getting in trouble for using any of the features in this module, including but not limited to Call Recording, 5GHz Hotspot, Bixby etc.
 */
 ```
 ## Purpose
