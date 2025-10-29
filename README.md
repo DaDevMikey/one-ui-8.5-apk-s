@@ -2,6 +2,12 @@
 
 This repository stores APKs from One UI 8.5 apps (not all of them). These APKs are used by the One UI 8.5 installer module and can also be installed directly from this repository.
 
+
+# Android 15/One UI 7 WARNING!
+
+if you're on a device running Android 15/One UI 7 most of the apk's are known to crash, apps like personal data intellegence wont install, camera app will crash, phone app will crash, and so will the contacts app, do not try to install them unless you know what you're doing!
+
+
 # BEFORE YOU START
 
 APK's like the samsung settings app and the one ui home app are NOT included in this repo, because those apps need specific one ui 8.5 libraries and without them the apps WILL crash
