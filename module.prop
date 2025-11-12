@@ -1,7 +1,6 @@
 id=oneui8-apks
-name=One UI 8.5 APK Installer
-version=1.0.2-CYJH
-versionCode=1
+name=One UI 8.5 APK Installer (CYJO)
+version=2.0.1-CYJO
+versionCode=2
 author=DaDevMikey (@MikeyDoesTech)
-
-description=Installs One UI 8.5 APKs on rooted one ui devices (works best with one ui 8.0)
+description=Installs One UI 8.5 APKs (CYJO) on rooted one ui devices (works best with one ui 8.0)
