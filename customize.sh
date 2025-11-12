@@ -9,60 +9,63 @@ set -e
 # --- Module Variables ---
 
 # Base URL for the release
-RELEASE_URL_LATEST="https://github.com/DaDevMikey/one-ui-8.5-apk-s/releases/download/CYJO"
-RELEASE_URL_LEGACY="https://github.com/DaDevMikey/one-ui-8.5-apk-s/releases/download/CYJH"
+RELEASE_URL_LATEST="https://github.com/DaDevMikey/one-ui-8.5-apk-s/releases/download/CYK7"
+RELEASE_URL_LEGACY="https://github.com/DaDevMikey/one-ui-8.5-apk-s/releases/download/CYJO"
 
 # List of APK filenames, one per line.
 APK_LIST="
-AirCommand.apk
-BudsUniteManager.apk
-DesktopModeUiService.apk
+AODService_v80.apk
 DeviceDiagnostics.apk
 DigitalWellbeing.apk
-DynamicLockscreen.apk
+DressRoom.apk
 GalaxyApps_OPEN.apk
+GalaxyResourceUpdater.apk
 GalleryWidget.apk
-HoneyBoard.apk
-KnoxDesktopLauncher.apk
+Moments.apk
+MultiControl.apk
 MyDevice.apk
-Personalization.apk
-PhoneErrService.apk
-PhoneNumberService.apk
 PhotoEditor_AIFull.apk
 PhotoRemasterService.apk
 PrivacyDashboard.apk
 Routines.apk
-SamsungCamera.apk
 SamsungContacts.apk
-SamsungContactsProvider.apk
-SamsungDeviceHealthManagerService.apk
 SamsungDialer.apk
 SamsungGallery2018.apk
 SamsungInCallUI.apk
-SamsungVideoPlayer.apk
+SamsungSmartSuggestions.apk
+SamsungWeather.apk
+SecMyFiles2020.apk
+SecSettings.apk
 SecSettingsIntelligence.apk
-SecSetupWizard_Global.apk
 SecTelephonyProvider.apk
-SetupWizard.apk
+SettingsProvider.apk
 SmartCapture.apk
+SmartManager_v5.apk
 SmartManager_v6_DeviceSecurity.apk
 TelephonyUI.apk
+wallpaper-res.apk
+"
+
+# List of legacy APKs to download from the CYJO release
+LEGACY_APK_LIST="
+AirCommand.apk
+BudsUniteManager.apk
+DesktopModeUiService.apk
+DynamicLockscreen.apk
+HoneyBoard.apk
+KnoxDesktopLauncher.apk
+Personalization.apk
+PhoneErrService.apk
+PhoneNumberService.apk
+SamsungCamera.apk
+SamsungContactsProvider.apk
+SamsungDeviceHealthManagerService.apk
+SamsungVideoPlayer.apk
+SecSetupWizard_Global.apk
+SetupWizard.apk
 ThemeStore.apk
 VideoEditorLite_Dream_N.apk
 VirtualDeviceManager.apk
-wallpaper-res.apk
-SecMyFiles2020.apk
-SamsungSmartSuggestions.apk
-MultiControl.apk
-Moments.apk
-Digital.Wellbeing.apk
-"
-
-# List of legacy APKs to download from the CYJH release
-LEGACY_APK_LIST="
-GameOptimizingService.apk
-SamsungMessages.apk
-ShareLive.apk
 "
 
 # List of APKs known to cause issues on Android 15+
