@@ -14,7 +14,6 @@ RELEASE_URL_LEGACY="https://github.com/DaDevMikey/one-ui-8.5-apk-s/releases/down
 
 # List of APK filenames, one per line.
 APK_LIST="
-AODService_v80.apk
 DeviceDiagnostics.apk
 DigitalWellbeing.apk
 DressRoom.apk
@@ -35,7 +34,6 @@ SamsungInCallUI.apk
 SamsungSmartSuggestions.apk
 SamsungWeather.apk
 SecMyFiles2020.apk
-SecSettings.apk
 SecSettingsIntelligence.apk
 SecTelephonyProvider.apk
 SettingsProvider.apk
@@ -48,7 +46,6 @@ wallpaper-res.apk
 
 # List of legacy APKs to download from the CYJO release
 LEGACY_APK_LIST="
-AirCommand.apk
 BudsUniteManager.apk
 DesktopModeUiService.apk
 DynamicLockscreen.apk
@@ -58,7 +55,6 @@ Personalization.apk
 PhoneErrService.apk
 PhoneNumberService.apk
 SamsungCamera.apk
-SamsungContactsProvider.apk
 SamsungDeviceHealthManagerService.apk
 SamsungVideoPlayer.apk
 SecSetupWizard_Global.apk
@@ -72,12 +68,8 @@ VirtualDeviceManager.apk
 CRASHING_APKS="
 SamsungContactsProvider.apk
 SamsungCamera.apk
+AirCommand.apk
 "
-
-# The ID of the module we're checking for
-ASKS_DISABLER_ID="asks_disabler"
-
-# Temp directory for downloads
 TMP_DIR="/data/local/tmp"
 
 # --- Functions ---
@@ -180,19 +172,7 @@ fi
 ui_print " "
 ui_print "Installation confirmed (Volume Up)."
 
-# 2. Check for ASKS Disabler
-ui_print "Checking for ASKS Disabler..."
-if [ -d "/data/adb/modules/$ASKS_DISABLER_ID" ]; then
-  ui_print "-> Found: ASKS Disabler is installed."
-else
-  ui_print " "
-  ui_print "! ERROR: ASKS Disabler module not found."
-  ui_print "   This module is required."
-  ui_print "   Please install 'asks_disabler' and try again."
-  exit 1
-fi
-
-# 3. Download and Install APKs
+# 2. Download and Install APKs
 ui_print " "
 ui_print "Starting download and installation of APKs..."
 ui_print "(Each dot represents downloaded data)"
@@ -240,7 +220,7 @@ echo "$APK_LIST" | while read -r FILENAME; do
   fi
 done # End of while loop
 
-# 4. Download and Install Legacy APKs from CYJH
+# 3. Download and Install Legacy APKs from CYJH
 ui_print " "
 ui_print "Starting download and installation of legacy APKs..."
 
