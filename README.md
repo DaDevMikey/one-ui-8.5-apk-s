@@ -5,7 +5,7 @@ This repository stores APKs from One UI 8.5 apps (not all of them). These APKs a
 
 # Android 15/One UI 7 WARNING!
 
-if you're on a device running Android 15/One UI 7 most of the apk's are known to crash, apps like personal data intellegence wont install, camera app will crash, phone app will crash, and so will the contacts app, do not try to install them unless you know what you're doing!
+if you're on a device running Android 15/One UI 7 most of the apk's are known to crash, apps like personal data intellegence wont install, camera app will crash, and so will the contactsstorage app, do not try to install them unless you know what you're doing! Other apps that could crash are reported by users in our [Telegram](https://t.me/oneui85apks)
 
 
 # BEFORE YOU START
@@ -44,9 +44,12 @@ The primary purpose of this repository is to:
 The **easiest way** to install these apps is by using the modules available in the [Releases](../../releases) section:
 
 1. **Installer Module** - Downloads and installs the APKs from this repository
-2. **Compatibility Module** - Makes the apps work properly on your device
+2. ~~**Compatibility Module** - Makes the apps work properly on your device~~
+3. **Spoofer Module** if you want features like Live Blur, you need this module, this can break Home Up, but launching activities other then the main activity should still have it work!
 
-Both modules are required for the apps to function correctly.
+~~Both modules are required for the apps to function correctly.~~
+
+As of version 3.0.1-CYK7, the module has ASKS Disabler included, and no longer needs to be installed manually.
 
 ### Manual Installation
 
